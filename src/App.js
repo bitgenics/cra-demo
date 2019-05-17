@@ -21,7 +21,7 @@ function App() {
         <p>Get preview URLs for every commit in all environments using Linc:</p>
         <a
           className="App-link"
-          href="https://fab.dev/"
+          href="https://app.linc.sh/"
           target="_blank"
           rel="noopener noreferrer"
         >
