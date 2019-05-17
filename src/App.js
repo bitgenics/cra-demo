@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 function App() {
   return (
@@ -8,19 +8,28 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This project has been configured to output a <code>FAB</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://fab.dev/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn about FABs
+        </a>
+        <p>Get preview URLs for every commit in all environments using Linc:</p>
+        <a
+          className="App-link"
+          href="https://fab.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://app.linc.sh/
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
