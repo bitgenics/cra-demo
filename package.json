@@ -31,6 +31,6 @@
     ]
   },
   "devDependencies": {
-    "@fab/static": "^0.1.4"
+    "@fab/static": "^0.1.8"
   }
 }

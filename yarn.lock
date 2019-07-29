@@ -910,10 +910,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
-"@fab/compile@^0.2.0":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@fab/compile/-/compile-0.2.2.tgz#a425ff044074d49524cbbf3a9164d106dea35160"
-  integrity sha512-ZETF9+H4hql9CCNjrDybAsvnFEWphyql0st5W33pGL26w4nYxXnXIK8xEFJdD3LlN2yFqQdtFNTLRwSRqWJSuQ==
+"@fab/compile@^0.3.0-0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@fab/compile/-/compile-0.3.1.tgz#2388829c087dff64f9dd6a15cac641ae531ccd01"
+  integrity sha512-KybUiCi2RJlviYwdOC1w6xHsnVOukLKFSyPFPOqdWZIJaGRewg+otedAfG9K4SsywB9trhjL6qfjZCDXhsO4pg==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -932,20 +932,21 @@
     typescript "^3.3.1"
     webpack "^4.29.0"
 
-"@fab/static@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@fab/static/-/static-0.1.4.tgz#4339487a65f352c0571b20b3adf809c0fe9b2f57"
-  integrity sha512-Ywy5zSrCU3/ZUtMDy5BMMJIoqmoXz9h9pb9mPUV/1Y0Xug3BddviObR5eXlBADpjUmJLbCwwanSWokOOmS9UVw==
+"@fab/static@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@fab/static/-/static-0.1.8.tgz#8898cd99e8db43df4cc6249b623a31d62f094266"
+  integrity sha512-82sXmRF71MMEBvKvepwB/qGTQV3YxQGd2fw00WgNIhfDwnC1jf73yHI5hdUiI+YcJN66Km6vkKMu/XN1MHETSQ==
   dependencies:
-    "@fab/compile" "^0.2.0"
+    "@fab/compile" "^0.3.0-0"
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^2"
+    "@types/fs-extra" "^8.0.0"
     chalk "^2.4.2"
     cheerio "^1.0.0-rc.2"
     fs-extra "^7.0.1"
     globby "^9.0.0"
-    hasha "^3.0.0"
+    hasha "^5.0.0"
     mustache "^3.0.1"
     mustache-loader "^1.4.1"
     prettier "^1.16.1"
@@ -1343,6 +1344,13 @@
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@types/events/-/events-3.0.0.tgz#2862f3f58a9a7f7c3e78d79f130dd4d71c25c2a7"
   integrity sha512-EaObqwIvayI5a8dCzhFrjKzVwKLxjoG9T6Ppd5CEo07LRKfQ8Yokw54r5+Wq7FaBQ+yXRvQAYPrHwya1/UFt9g==
+
+"@types/fs-extra@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.0.0.tgz#d3e2c313ca29f95059f198dd60d1f774642d4b25"
+  integrity sha512-bCtL5v9zdbQW86yexOlXWTEGvLNqWxMFyi7gQA7Gcthbezr2cPSOb8SkESVKA937QD5cIwOFLDFt0MQoXOEr9Q==
+  dependencies:
+    "@types/node" "*"
 
 "@types/glob@*", "@types/glob@^7.1.1":
   version "7.1.1"
@@ -4615,7 +4623,7 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-hasha@*:
+hasha@*, hasha@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/hasha/-/hasha-5.0.0.tgz#fdc3785caea03df29535fc8adb512c3d3a709004"
   integrity sha512-PqWdhnQhq6tqD32hZv+l1e5mJHNSudjnaAzgAHfkGiU0ABN6lmbZF8abJIulQHbZ7oiHhP8yL6O910ICMc+5pw==
